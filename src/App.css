@@ -1,28 +1,60 @@
+* {
+  font-size: 18px;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.Card {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.HeaderCard {
+  background: no-repeat center
+    url('https://www.visitmontrose.com/ImageRepository/Document?documentID=901');
+}
+
+.h1--Header {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.IntroCard {
+  background: rgb(0, 185, 169);
+  padding: 0px 40px;
+}
+
+.IntroCard__h2 {
+  font-size: 1.2rem;
+}
+.PointCard {
+}
+.ImageCard {
+}
+.Footer {
+}
+.FooterCard {
+}
+
+.text {
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.Button {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: white;
+  border: none;
+  background-color: rgb(254, 18, 15);
+  border-radius: 5px;
+  padding: 10px 80px;
 }
