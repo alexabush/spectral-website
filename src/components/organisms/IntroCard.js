@@ -9,7 +9,7 @@ class IntroCard extends Component {
           Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         </h2>
         <br />
-        <p className="text">
+        <p className="text IntroCard__p">
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut saepe,
           architecto voluptate repellat nobis possimus veritatis excepturi
           nesciunt illum asperiores maxime perferendis laborum nihil id

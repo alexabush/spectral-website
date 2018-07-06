@@ -6,13 +6,10 @@ class ImageCard extends Component {
     return (
       <div className="Card ImageCard">
         <img src={this.props.image} alt="" />
-        <h2 className="text">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        </h2>
-        <p className="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veniam
-          doloremque ipsam fugit magnam?{' '}
-        </p>
+        <div className="ImageCard__text-container">
+          <h2 className="text ImageCard__h2">{this.props.header}</h2>
+          <p className="text ImageCard__p">{this.props.text}</p>
+        </div>
       </div>
     );
   }

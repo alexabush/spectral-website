@@ -11,7 +11,7 @@ class HeaderCard extends Component {
         <p className="text Header--p">
           Responsive Site Template based on Spectral design by HTML5 Up.
         </p>
-        <Button color="red" text="Activate" />
+        <Button color="red" width="wide" text="Activate" />
       </div>
     );
   }
