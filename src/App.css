@@ -46,7 +46,8 @@ h2 {
   letter-spacing: 2.5px;
 }
 
-.Header--p {
+.Header--p,
+.FooterCard__p {
   letter-spacing: 2px;
   max-width: 80%;
   padding-bottom: 15px;
@@ -67,17 +68,29 @@ h2 {
   font-size: 0.8rem;
 }
 
-.PointCard {
+.PointCard,
+.IntroPointCard,
+.IntroPointCard__h2 {
   background: rgb(84, 75, 149);
+}
+
+.PointCard,
+.IntroPointCard__h2 {
   padding-bottom: 1px solid;
   border-bottom: 3px solid rgb(73, 66, 130);
 }
 
-.PointCard__h2 {
+.PointCard__h2,
+.IntroPointCard__h2 {
   padding-bottom: 20px;
 }
 
-.PointCard__p {
+.IntroPointCard__p {
+  padding-top: 15px;
+}
+
+.PointCard__p,
+.IntroPointCard__p {
   font-size: 0.75rem;
   width: 93%;
 }
@@ -121,7 +134,7 @@ h2 {
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 10px;
+  padding: 12px;
   width: 120px;
 }
 
@@ -144,5 +157,18 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 90px;
+  height: 100px;
+}
+
+.FooterCard__h2 {
+  font-size: 1rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  letter-spacing: 3px;
+}
+
+.FooterCard__p {
+  font-size: 0.8rem;
+  padding-bottom: 30px;
 }

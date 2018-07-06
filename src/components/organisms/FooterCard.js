@@ -6,8 +6,8 @@ class FooterCard extends Component {
   render() {
     return (
       <div className="Card FooterCard">
-        <h2 className="text">FooterCard</h2>
-        <p className="text">
+        <h2 className="text FooterCard__h2">FooterCard</h2>
+        <p className="text FooterCard__p">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluptate
           eaque, provident nihil sit odio.
         </p>

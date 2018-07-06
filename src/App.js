@@ -6,6 +6,7 @@ import IntroCard from './components/organisms/IntroCard';
 import FooterCard from './components/organisms/FooterCard';
 import ImageCard from './components/organisms/ImageCard';
 import PointCard from './components/organisms/PointCard';
+import IntroPointCard from './components/organisms/IntroPointCard';
 
 import computer_model from './assets/computer_model.jpg';
 import mountain_bike_model from './assets/mountain_bike_model.JPG';
@@ -65,7 +66,7 @@ class App extends Component {
         <HeaderCard />
         <IntroCard />
         <ul className="App__ul">{imageCards}</ul>
-        <PointCard />
+        <IntroPointCard />
         <ul className="App__ul">{pointCards}</ul>
         <FooterCard />
         <Footer />
