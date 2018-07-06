@@ -9,7 +9,7 @@ class HeaderCard extends Component {
       <div className="Card HeaderCard">
         <h1 className="text h1--Header">Spectral</h1>
         <p className="text p--Header">Responsive Site Template</p>
-        <Button text="Activate" />
+        <Button color="red" text="Activate" />
       </div>
     );
   }
