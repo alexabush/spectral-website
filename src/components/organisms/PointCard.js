@@ -5,14 +5,8 @@ class PointCard extends Component {
   render() {
     return (
       <div className="Card PointCard">
-        <img src={this.props.image} alt="" />
-        <h2 className="text">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-        </h2>
-        <p className="text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veniam
-          doloremque ipsam fugit magnam?{' '}
-        </p>
+        <h2 className="text PointCard__h2">{this.props.header}</h2>
+        <p className="text PointCard__p">{this.props.text}</p>
       </div>
     );
   }

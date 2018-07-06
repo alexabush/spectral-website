@@ -69,7 +69,19 @@ h2 {
 
 .PointCard {
   background: rgb(84, 75, 149);
+  padding-bottom: 1px solid;
+  border-bottom: 3px solid rgb(73, 66, 130);
 }
+
+.PointCard__h2 {
+  padding-bottom: 20px;
+}
+
+.PointCard__p {
+  font-size: 0.75rem;
+  width: 93%;
+}
+
 .ImageCard {
   background: rgb(42, 52, 62);
 }

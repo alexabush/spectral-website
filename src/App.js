@@ -32,6 +32,23 @@ class App extends Component {
         text:
           'Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime veniam doloremque ipsam fugit magnam?'
       }
+    ],
+    pointCards: [
+      {
+        header: 'Lorem ipsum',
+        text:
+          'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut saepe, architecto voluptate repellat nobis possimus veritatis excepturi nesciunt illum asperiores maxime perferendis laborum nihil id distinctio ad adipisci, dolor aliquid.'
+      },
+      {
+        header: 'Lorem ipsum',
+        text:
+          'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut saepe, architecto voluptate repellat nobis possimus veritatis excepturi nesciunt illum asperiores maxime perferendis laborum nihil id distinctio ad adipisci, dolor aliquid.'
+      },
+      {
+        header: 'Lorem ipsum',
+        text:
+          'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut saepe, architecto voluptate repellat nobis possimus veritatis excepturi nesciunt illum asperiores maxime perferendis laborum nihil id distinctio ad adipisci, dolor aliquid.'
+      }
     ]
   };
   render() {
@@ -40,12 +57,16 @@ class App extends Component {
         <ImageCard image={data.image} header={data.header} text={data.text} />
       );
     });
+    const pointCards = this.state.pointCards.map(data => {
+      return <PointCard header={data.header} text={data.text} />;
+    });
     return (
       <div className="App">
         <HeaderCard />
         <IntroCard />
         <ul className="App__ul">{imageCards}</ul>
         <PointCard />
+        <ul className="App__ul">{pointCards}</ul>
         <FooterCard />
         <Footer />
       </div>
