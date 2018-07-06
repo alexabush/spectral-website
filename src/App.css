@@ -172,3 +172,11 @@ h2 {
   font-size: 0.8rem;
   padding-bottom: 30px;
 }
+
+.Footer {
+  padding: 100px 0 40px 0;
+}
+
+.Footer__ul {
+  display: flex;
+}

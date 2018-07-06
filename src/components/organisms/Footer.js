@@ -5,12 +5,11 @@ class Footer extends Component {
   render() {
     return (
       <div className="Footer">
-        <h2 className="text">Footer</h2>
-        <p className="text">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, iusto
-          esse sit asperiores magnam quo natus neque eius inventore mollitia
-          deleniti quaerat nam soluta cum, reiciendis nemo porro voluptatum ad?
-        </p>
+        <ul className="text Footer__ul">
+          <li className="text Footer__li">Untitled</li>
+          <li className="text Footer__li">Design: Html5 Up</li>
+          <li className="text Footer__li">Demo Images: Unsplash</li>
+        </ul>
       </div>
     );
   }
