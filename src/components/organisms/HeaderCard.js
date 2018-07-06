@@ -7,8 +7,10 @@ class HeaderCard extends Component {
   render() {
     return (
       <div className="Card HeaderCard">
-        <h1 className="text h1--Header">Spectral</h1>
-        <p className="text p--Header">Responsive Site Template</p>
+        <h1 className="text Header--h1">Spectral</h1>
+        <p className="text Header--p">
+          Responsive Site Template based on Spectral design by HTML5 Up.
+        </p>
         <Button color="red" text="Activate" />
       </div>
     );

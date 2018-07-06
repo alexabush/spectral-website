@@ -12,8 +12,8 @@ class FooterCard extends Component {
           eaque, provident nihil sit odio.
         </p>
         <div className="div--space-between">
-          <Button color="red" text="Activate" />
-          <Button color="transparent" text="Learn More" />
+          <Button color="red" width="wide" text="Activate" />
+          <Button color="transparent" width="wide" text="Learn More" />
         </div>
       </div>
     );

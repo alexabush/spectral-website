@@ -5,9 +5,12 @@ class Button extends Component {
   render() {
     let className = 'Button';
     if (this.props.color === 'red') {
-      className = 'Button Button--red';
+      className = className.concat(' Button--red');
     } else if (this.props.color === 'transparent') {
-      className = 'Button Button--transparent';
+      className = className.concat(' Button--transparent');
+    }
+    if (this.props.width === 'wide') {
+      className = className.concat(' Button--wide');
     }
     return (
       <div>
